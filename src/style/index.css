@@ -2,17 +2,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color--lazuli-950: #000000;
-  --color--lazuli-900: #0d0d0d;
-  --color--lazuli-800: #0c1821;
-  --color--lazuli-600: #205782;
-  --color--lazuli-400: #8fcbd9;
-  --color--lazuli-200: #c4eef2;
+  --color-lazuli-950: #000000;
+  --color-lazuli-900: #0d0d0d;
+  --color-lazuli-800: #0c1821;
+  --color-lazuli-600: #205782;
+  --color-lazuli-400: #8fcbd9;
+  --color-lazuli-200: #c4eef2;
 
-  --color--turquoise-500: #1f788c;
-  --color--turquoise-400: #379ba6;
+  --color-turquoise-500: #1f788c;
+  --color-turquoise-400: #379ba6;
 
-  --color--mint-500: #4f959d;
+  --color-mint-500: #4f959d;
   --color-mint-200: #98d2c0;
 
   --color-sunflower-200: #f6f8d5;
