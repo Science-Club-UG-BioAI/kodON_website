@@ -1,10 +1,10 @@
 export default function About() {
   return (
-    <div className="relative flex flex-col item-center jsutify-center h-auto bg-lazuli-400 p-20">
-      <h1 className="font-fira font-bold text-6xl bg-gradient-to-r from-lazuli-900 to-lazuli-600 text-transparent bg-clip-text inline-block">
+    <div className="font-fira flex flex-col item-center jsutify-center h-auto bg-lazuli-400 p-20">
+      <h1 className="font-bold text-6xl bg-gradient-to-r from-lazuli-900 to-lazuli-600 text-transparent bg-clip-text inline-block">
         O nas
       </h1>
-      <div className="font-fira font-medium text-xl mt-10 bg-gradient-to-r from-lazuli-900 to-lazuli-800 text-transparent bg-clip-text inline-block">
+      <div className="font-medium text-xl mt-10 bg-gradient-to-r from-lazuli-900 to-lazuli-800 text-transparent bg-clip-text inline-block">
         <p>
           Nasze Koło Naukowe kodON to inicjatywa studentów bioinformatyki,
           którzy łączą zainteresowania biologią, genetyką i uczeniem maszynowym.
