@@ -1,3 +1,3 @@
-export default function Nav() {
+export default function Footer() {
   return <footer>footer</footer>;
 }
