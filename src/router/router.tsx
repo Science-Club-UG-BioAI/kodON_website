@@ -1,9 +1,16 @@
-import { createBrowserRouter } from "react-router-dom";
-import Home from "../components/Home";
+import { createBrowserRouter } from 'react-router-dom';
+import Layout from '../components/Layout';
 
 export const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Home />
-  }
+    path: '/',
+    element: <Layout children={undefined} />,
+    // children: [
+    //   {
+    //     path: '/kontakt',
+    //     element: <Contact />,
+    //   },
+    // ],
+    // etc...
+  },
 ]);
