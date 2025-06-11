@@ -1,9 +1,13 @@
+import Main from "./Main";
 import Nav from "./Nav";
 
 export default function Layout({children}: {children: React.ReactNode}) {
   return (
-    <div className="max-w-[2000px] w-full mx-auto px-4">
-      <Nav/>
+    <div className="min-h-screen w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Nav/>
+      </div>
+      <Main/>
       {children}
     </div>
   )
