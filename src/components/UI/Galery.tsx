@@ -24,35 +24,36 @@ export default function Galery() {
   };
 
   return (
-    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-      <div className="overflow-hidden">
-        <div className="z-1 absolute w-full h-full flex flex-col justify-center pl-150 pr-30 bg-gradient-to-r from-lazuli-t to-lazuli-900 to-40% text-lazuli-200">
-          <h3 className="text-5xl font-bold mb-5">
+    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex ">
+      <div className="relative size-full overflow-hidden">
+        <div className="z-1 absolute size-full grid grid-cols-11 grid-rows-11 bg-gradient-to-r from-lazuli-t to-lazuli-900 to-40% text-lazuli-200">
+          <button
+            className="z-2 flex justify-center items-center col-span-2 col-start-1 row-span-11 row-start-1 opacity-20 hover:opacity-50 hover:scale-125 transition duration-50"
+            onClick={handleLeftClick}
+          >
+            <div className="w-15 h-15 rotate-135 inset-shadow-arrow"></div>
+          </button>
+
+          <button
+            className="z-2 flex justify-center items-center col-span-2 col-start-10 row-span-11 row-start-1 opacity-20 hover:opacity-50 hover:scale-125 transition duration-50"
+            onClick={handleRightClick}
+          >
+            <div className="w-15 h-15 rotate-315 inset-shadow-arrow"></div>
+          </button>
+
+          <h3 className="col-span-4 col-start-6 row-span-1 row-start-4 text-5xl font-bold mb-5">
             {projectName[selectedContent]}
           </h3>
-          <p className="text-xl">{porjectDesc[selectedContent]}</p>
+          <p className="col-span-4 col-start-6 row-span-5 row-start-5 text-xl">
+            {porjectDesc[selectedContent]}
+          </p>
         </div>
         <img
-          className="size-full blur-xs"
+          className="size-full aspect-3/2 blur-xs"
           src={`src/assets/img/Project_${galeryContent[selectedContent]}.png`}
           alt="Project Photo"
         />
       </div>
-
-      {/* Buttons */}
-      <button
-        className="z-1 absolute left-0 top-0 w-15 h-full flex items-center opacity-20 hover:opacity-50 hover:scale-125 transition duration-50"
-        onClick={handleLeftClick}
-      >
-        <div className="z-1 w-15 h-15 rotate-135 inset-shadow-arrow"></div>
-      </button>
-
-      <button
-        className="z-1 absolute right-0 top-0 w-15 h-full flex items-center opacity-20 hover:opacity-50 hover:scale-125 transition duration-50"
-        onClick={handleRightClick}
-      >
-        <div className="z-1 w-15 h-15 rotate-315 inset-shadow-arrow"></div>
-      </button>
     </div>
   );
 }

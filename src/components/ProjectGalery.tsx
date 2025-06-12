@@ -7,9 +7,7 @@ export default function ProjectGalery() {
         <h1 className="font-fira font-bold text-6xl text-lazuli-200">
           Ostatnie projekty
         </h1>
-        <div>
-          <Galery />
-        </div>
+        <Galery />
       </div>
     </div>
   );
