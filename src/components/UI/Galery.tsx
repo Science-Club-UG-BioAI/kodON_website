@@ -51,7 +51,7 @@ export default function Galery() {
                 key={i}
                 className={`bg-lazuli-200 opacity-30 size-10 rounded-full transition flex items-center justify-center after:content-[''] after:block after:size-6 after:bg-lazuli-400 after:rounded-full after:opacity-30 duration-100 transform ${
                   selectedContent === i
-                    ? "opacity-80 scale-110 shadow-md after:bg-lazuli-600 after:opacity-80"
+                    ? "opacity-80 scale-110 shadow-md after:bg-lazuli-800 after:opacity-80"
                     : ""
                 }`}
               />
