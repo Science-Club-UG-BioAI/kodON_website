@@ -6,7 +6,7 @@ export default function Leaders() {
   const people = [
     {
       id: 1,
-      img: "public/img/Prezes.png",
+      img: "/img/Prezes.png",
       role: "Prezes",
       name: "Mateusz",
       surname: "Gawin",
@@ -16,7 +16,7 @@ export default function Leaders() {
     },
     {
       id: 2,
-      img: "public/img/Vice_Prezes.png",
+      img: "/img/Vice_Prezes.png",
       role: "Vice Prezes",
       name: "Jan",
       surname: "Wolski",
@@ -26,7 +26,7 @@ export default function Leaders() {
     },
     {
       id: 3,
-      img: "public/img/Project_0.png",
+      img: "/img/Project_0.png",
       role: "Mental Help Developer",
       name: "Kot",
       surname: "Kotowaty",
