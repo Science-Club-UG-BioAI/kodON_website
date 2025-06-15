@@ -60,7 +60,7 @@ export default function Galery() {
         </div>
         <img
           className="size-full aspect-3/2 blur-xs object-cover transition-opacity duration-500"
-          src={`/img/Project_${galeryContent[selectedContent]}.png`}
+          src={`/kodON_website/img/Project_${galeryContent[selectedContent]}.png`}
           alt="Project Photo"
         />
       </div>
