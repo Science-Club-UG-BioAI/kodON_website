@@ -28,13 +28,13 @@ export default function Galery() {
       <div className="relative size-full overflow-hidden">
         <div className="z-1 absolute size-full grid grid-cols-11 grid-rows-11 bg-gradient-to-r from-lazuli-t to-lazuli-900 to-40% text-lazuli-200">
           <button
-            className="z-2 cursor-pointer flex justify-center items-center col-span-2 col-start-1 row-span-11 row-start-1 opacity-20 transition duration-100 hover:opacity-50 hover:scale-125 transition duration-50"
+            className="z-2 cursor-pointer flex justify-center items-center col-span-2 col-start-1 row-span-11 row-start-1 opacity-20 transition duration-100 hover:opacity-50 hover:scale-125 "
             onClick={handleLeftClick}
           >
             <div className="w-15 h-15 rotate-135 inset-shadow-arrow"></div>
           </button>
           <button
-            className="z-2 cursor-pointer flex justify-center items-center col-span-2 col-start-10 row-span-11 row-start-1 opacity-20 transition duration-100 hover:opacity-50 hover:scale-125 transition duration-50"
+            className="z-2 cursor-pointer flex justify-center items-center col-span-2 col-start-10 row-span-11 row-start-1 opacity-20 transition duration-100 hover:opacity-50 hover:scale-125"
             onClick={handleRightClick}
           >
             <div className="w-15 h-15 rotate-315 inset-shadow-arrow"></div>
