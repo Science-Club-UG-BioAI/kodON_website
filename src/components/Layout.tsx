@@ -1,13 +1,14 @@
-import Nav from "./Nav";
+import Header from './Header';
+import Main from './Main';
 
-export default function Layout({children}: {children: React.ReactNode}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="max-w-[2000px] w-full mx-auto px-4">
-      <Nav/>
+    <div className='mx-auto'>
+      <Header />
+      <Main />
       {children}
     </div>
-  )
+  );
 }
 
-// more features can be added later 
-// layout already has a padding to content !!!!
+// more features can be added later
