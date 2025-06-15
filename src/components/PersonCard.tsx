@@ -5,15 +5,24 @@ export default function PersonCard(props: {
   surname: string;
   description: string;
   leader: boolean;
+  onClick?: () => void;
+  size?: "lg" | "sm";
 }) {
+  const sizeClass = props.size === "sm" ? "w-40 h-40" : "w-60 h-60";
+
   return (
-    <div className="flex flex-col items-top justify-center h-fit w-fit hover:drop-shadow-xl">
-      <img className="rounded-full" src={props.img} alt={props.role} />
-      {props.leader && (
-        <p className="text-center font-medium text-6xl mt-10 bg-gradient-to-r from-lazuli-900 to-lazuli-800 text-transparent bg-clip-text inline-block">
-          {props.name}
-          <br />
-          {props.surname}
+    <div
+      onClick={props.onClick}
+      className="flex flex-col items-center justify-center cursor-pointer hover:drop-shadow-xl"
+    >
+      <img
+        className={`rounded-full ${sizeClass}`}
+        src={props.img}
+        alt={props.role}
+      />
+      {props.leader && props.size !== "sm" && (
+        <p className="text-center font-mono font-bold text-xl mt-4">
+          {props.name} {props.surname}
         </p>
       )}
     </div>
