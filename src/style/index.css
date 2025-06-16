@@ -2,6 +2,7 @@
 @import "tailwindcss";
 
 @theme {
+  --color-lazuli-t: #00000000;
   --color-lazuli-950: #000000;
   --color-lazuli-900: #0d0d0d;
   --color-lazuli-800: #0c1821;
@@ -18,4 +19,6 @@
   --color-sunflower-200: #f6f8d5;
 
   --font-fira: "Fira Code", monospace;
+
+  --inset-shadow-arrow: 10px 10px 0px #c4eef2;
 }
