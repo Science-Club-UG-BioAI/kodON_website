@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import 'tailwindcss';
 
 @theme {
   --color-lazuli-t: #00000000;
@@ -18,7 +18,9 @@
 
   --color-sunflower-200: #f6f8d5;
 
-  --font-fira: "Fira Code", monospace;
+  --font-fira: 'Fira Code', monospace;
 
   --inset-shadow-arrow: 10px 10px 0px #c4eef2;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 140rem;
 }
