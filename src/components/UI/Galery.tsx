@@ -42,7 +42,7 @@ export default function Galery() {
           <h3 className="col-span-4 col-start-6 row-span-1 row-start-4 text-[2vw] font-bold mb-5">
             {projectName[selectedContent]}
           </h3>
-          <p className="col-span-4 col-start-6 row-span-5 row-start-5 text-[1vw]">
+          <p className="col-span-4 col-start-6 row-span-5 row-start-5 text-[1.4vw]">
             {porjectDesc[selectedContent]}
           </p>
 
