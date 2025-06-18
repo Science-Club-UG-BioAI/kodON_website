@@ -4,7 +4,7 @@ import Main from "./Main";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="mx-auto font-fira">
+    <div className="font-fira">
       <Header />
       <Main />
       {children}

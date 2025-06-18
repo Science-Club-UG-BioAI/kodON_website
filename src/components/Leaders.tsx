@@ -51,7 +51,7 @@ export default function Leaders() {
     <div className="w-full bg-lazuli-400 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex flex-col items-center">
         {/* Title */}
-        <h1 className="text-6xl font-bold text-lazuli-900 mb-16 transition-all duration-300">
+        <h1 className="text-4xl font-bold text-lazuli-900 mb-16 transition-all duration-300">
           {selectedPerson ? selectedPerson.role : "Zarząd"}
         </h1>
 

@@ -23,4 +23,6 @@
   --inset-shadow-arrow: 10px 10px 0px #c4eef2;
   --breakpoint-2xl: 100rem;
   --breakpoint-3xl: 140rem;
+
+  --overflow-x: hidden;
 }

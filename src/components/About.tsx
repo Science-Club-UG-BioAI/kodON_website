@@ -23,10 +23,10 @@ export default function About() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <h1 className="font-bold text-6xl bg-gradient-to-r from-lazuli-900 to-lazuli-600 text-transparent bg-clip-text inline-block">
+        <h2 className="font-bold text-4xl px-4 bg-gradient-to-r from-lazuli-900 to-lazuli-600 text-transparent bg-clip-text inline-block">
           O nas
-        </h1>
-        <div className="font-medium text-xl mt-10 bg-gradient-to-r from-lazuli-900 to-lazuli-800 text-transparent bg-clip-text inline-block">
+        </h2>
+        <div className="font-medium px-4 text-xl mt-10 bg-gradient-to-r from-lazuli-900 to-lazuli-800 text-transparent bg-clip-text inline-block">
           {/* Your paragraphs remain unchanged */}
           <p>
             Nasze Koło Naukowe kodON to inicjatywa studentów bioinformatyki,

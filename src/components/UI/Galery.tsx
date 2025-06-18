@@ -26,7 +26,7 @@ export default function Galery() {
   return (
     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex ">
       <div className="relative size-full overflow-hidden">
-        <div className="z-1 absolute size-full grid grid-cols-11 grid-rows-11 bg-gradient-to-r from-lazuli-t to-lazuli-900 to-40% text-lazuli-200">
+        <div className="z-1 absolute size-full grid grid-cols-11 grid-rows-11 bg-gradient-to-r from-lazuli-t to-lazuli-900 to-40% text-lazuli-200 px-4">
           <button
             className="z-2 cursor-pointer flex justify-center items-center col-span-2 col-start-1 row-span-11 row-start-1 opacity-20 transition duration-100 hover:opacity-50 hover:scale-125 "
             onClick={handleLeftClick}

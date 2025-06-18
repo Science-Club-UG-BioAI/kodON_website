@@ -69,7 +69,7 @@ export default function Footer() {
                 </p>
               </div>
 
-              <div className='flex gap-4 space-y-4 md:space-y-0 md:space-x-4'>
+              <div className='flex gap-4 space-y-4 md:space-y-0 md:space-x-4 mt-10'>
                 {socialLinks.map((link) => (
                   <Link
                     key={link.name}
