@@ -27,6 +27,6 @@
   --overflow-x: hidden;
 }
 
-html, body {
-  background-image: linear-gradient(to right, #001c42, #003366);
+body {
+  background-color: rgb(9, 13, 20);
 }
