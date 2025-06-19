@@ -6,7 +6,7 @@ Oficjalna strona koła **kodON**
 
 🔗 [Zobacz stronę](https://science-club-ug-bioai.github.io/kodON_website/)
 
-## ⚙️ Technologie
+## Technologie
 
 Projekt oparty na:
 
@@ -16,4 +16,7 @@ Projekt oparty na:
   </a>
 </p>
 
+
+## W PRODUKCJI 🔨
+`/kontakt`, `/aktualnosci`, `/galeria` 
 
