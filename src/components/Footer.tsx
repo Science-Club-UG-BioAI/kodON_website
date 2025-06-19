@@ -16,7 +16,7 @@ export default function Footer() {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/kodON',
+      url: 'https://www.instagram.com/kodon_ug/',
       icon: instagramIcon,
     },
     {
