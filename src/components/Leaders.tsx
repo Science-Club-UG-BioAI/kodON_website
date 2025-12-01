@@ -6,7 +6,7 @@ export default function Leaders() {
   const people = [
     {
       id: 1,
-      img: "/kodON_website/img/Prezes.png",
+      img: "/kodON_website/img/Mat.jpg",
       role: "Prezes",
       name: "Mateusz",
       surname: "Gawin",
@@ -16,7 +16,7 @@ export default function Leaders() {
     },
     {
       id: 2,
-      img: "/kodON_website/img/Vice_Prezes.png",
+      img: "/kodON_website/img/Jan.jpg",
       role: "Vice Prezes",
       name: "Jan",
       surname: "Wolski",
@@ -26,12 +26,40 @@ export default function Leaders() {
     },
     {
       id: 3,
-      img: "/kodON_website/img/Project_0.png",
-      role: "Mental Help Developer",
-      name: "Kot",
-      surname: "Kotowaty",
+      img: "/kodON_website/img/Nat.jpg",
+      role: "Opiekunka Koła",
+      name: "Natalia",
+      surname: "Zagórska",
       description:
-        "I can't escape this hell So many times I've tried But I'm still caged inside Somebody get me through this nightmare I can't control myself. Ten kot został zwierzęciem którym został",
+        "Opiekunka koła bioinformatycznego, bada choroby autoimmunologiczne skóry i wciąż próbuje wyjaśnić rodzinie, czym właściwie się zajmuje.",
+      leader: false,
+    },
+    {
+      id: 4,
+      img: "/kodON_website/img/Ana.jpg",
+      role: "Social Rybka",
+      name: "Anastazja",
+      surname: "Szłyk",
+      description:
+        "W kole zajmuję się social mediami. Dbam o to, żeby nasze działania były dobrze pokazane i łatwo dostępne dla wszystkich zainteresowanych",
+      leader: false,
+    },
+    {
+      id: 5,
+      img: "/kodON_website/img/Wik.jpg",
+      role: "Social Boy - fotocykacz",
+      name: "Wiktor",
+      surname: "Komor",
+      description: "Ekspertka od social media koła KodON",
+      leader: false,
+    },
+    {
+      id: 6,
+      img: "/kodON_website/img/Kub.jpg",
+      role: "Naczelna Sekretarka (do zadań bojowych)",
+      name: "Kuba",
+      surname: "Kozłowski",
+      description: "Tak",
       leader: false,
     },
   ];

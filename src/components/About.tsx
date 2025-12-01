@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <div className="relative w-full bg-lazuli-400 overflow-hidden">
+    <div
+      id="Aktualnosci"
+      className="relative w-full bg-lazuli-400 overflow-hidden"
+    >
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <h2 className="font-bold text-4xl px-4 bg-gradient-to-r from-lazuli-900 to-lazuli-600 text-transparent bg-clip-text inline-block">

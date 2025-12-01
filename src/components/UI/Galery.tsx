@@ -4,10 +4,10 @@ export default function Galery() {
   const galeryContent = ["0", "1", "2"];
   const [selectedContent, setSelectedContent] = useState(1);
 
-  const projectName = ["Projekt 1", "Projekt 2", "Projekt 3"];
+  const projectName = ["Projekt Eva", "Projekt Słowik", "Projekt 3"];
   const porjectDesc = [
-    "Opis projektu 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua",
-    "Opis projektu 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua",
+    "Stowrzyliśmy model NEET, który uczy się samemu przechodzić napisaną przez nas grę.",
+    "Napisaliśmy model językowy, który przewiduje funkcję białka na podstawie jego sekwencji aminokwasowej.",
     "Opis projektu 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua",
   ];
 
@@ -24,7 +24,10 @@ export default function Galery() {
   };
 
   return (
-    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex ">
+    <div
+      id="Projekty"
+      className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex "
+    >
       <div className="relative size-full overflow-hidden">
         <div className="z-1 absolute size-full grid grid-cols-11 grid-rows-11 bg-gradient-to-r from-lazuli-t to-lazuli-900 to-40% text-lazuli-200 px-4">
           <button
@@ -62,7 +65,7 @@ export default function Galery() {
         </div>
         <img
           className="size-full aspect-3/2 blur-xs object-cover transition-opacity duration-500"
-          src={`/kodON_website/img/Project_${galeryContent[selectedContent]}.png`}
+          src={`/kodON_website/img/Project_${galeryContent[selectedContent]}.jpg`}
           alt="Project Photo"
         />
       </div>
