@@ -4,11 +4,11 @@ export default function Galery() {
   const galeryContent = ["0", "1", "2"];
   const [selectedContent, setSelectedContent] = useState(1);
 
-  const projectName = ["Projekt Eva", "Projekt Słowik", "Projekt 3"];
+  const projectName = ["Projekt Eva", "Projekt Słowik", "Projekt Ichor"];
   const porjectDesc = [
     "Stowrzyliśmy model NEET, który uczy się samemu przechodzić napisaną przez nas grę.",
     "Napisaliśmy model językowy, który przewiduje funkcję białka na podstawie jego sekwencji aminokwasowej.",
-    "Opis projektu 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua",
+    "Tworzymy model coś krew mati uzupełnij pls",
   ];
 
   const handleLeftClick = () => {
