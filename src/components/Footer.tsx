@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
 import LogoFooter from "./UI/LogoFooter";
-import image1 from "/img/image1.jpg";
-import image2 from "/img/image2.jpg";
-import image3 from "/img/image3.jpg";
+import image1 from "/img/Gal1.jpg";
+import image2 from "/img/Gal2.jpg";
+import image3 from "/img/Gal3.jpg";
+import image4 from "/img/Gal4.jpg";
+import image5 from "/img/Gal5.jpg";
+import image6 from "/img/Gal6.jpg";
+import image7 from "/img/Gal7.jpg";
+import image8 from "/img/Gal8.jpg";
+import image9 from "/img/Gal9.jpg";
+import image10 from "/img/Gal10.jpg";
+import image11 from "/img/Gal11.jpg";
 import linkedinIcon from "/img/in.jpg";
 import instagramIcon from "/img/ig.jpg";
 import githubIcon from "/img/gh.jpg";
@@ -42,21 +50,77 @@ export default function Footer() {
                 alt="Image 1"
                 width={400}
                 height={300}
-                className="object-cover"
+                className="object-cover rounded-sm"
               />
               <img
                 src={image2}
                 alt="Image 2"
                 width={400}
                 height={300}
-                className="object-cover"
+                className="object-cover rounded-sm"
               />
               <img
                 src={image3}
                 alt="Image 3"
                 width={400}
                 height={300}
-                className="object-cover"
+                className="object-cover rounded-sm"
+              />
+              <img
+                src={image4}
+                alt="Image 4"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
+              />
+              <img
+                src={image5}
+                alt="Image 5"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
+              />
+              <img
+                src={image6}
+                alt="Image 6"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
+              />
+              <img
+                src={image7}
+                alt="Image 7"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
+              />
+              <img
+                src={image8}
+                alt="Image 8"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
+              />
+              <img
+                src={image9}
+                alt="Image 9"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
+              />
+              <img
+                src={image10}
+                alt="Image 10"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
+              />
+              <img
+                src={image11}
+                alt="Image 11"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
               />
             </div>
           </div>
@@ -72,7 +136,7 @@ export default function Footer() {
                 </p>
               </div>
               <div>
-                <div>
+                <div id="Kontakt">
                   <p className="mb-6">Kontakt:</p>
                   <p className="font-medium">knkodon@gmail.com</p>
                 </div>

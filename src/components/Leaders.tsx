@@ -10,8 +10,7 @@ export default function Leaders() {
       role: "Prezes",
       name: "Mateusz",
       surname: "Gawin",
-      description:
-        "Mateusz Gawin is the president of the company. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Prezes koła oraz leń który nie wymyślił opisu.",
       leader: true,
     },
     {
@@ -59,7 +58,8 @@ export default function Leaders() {
       role: "Naczelna Sekretarka (do zadań bojowych)",
       name: "Kuba",
       surname: "Kozłowski",
-      description: "Tak",
+      description:
+        "Naczelna sekretarz, który nie chce nic robić ale kończy robiąc dużo.",
       leader: false,
     },
   ];
