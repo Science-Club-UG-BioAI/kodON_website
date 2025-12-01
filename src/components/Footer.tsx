@@ -62,7 +62,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="relative z-20">
-          <div className="bg-[url('/img/wave.jpg')] bg-no-repeat bg-cover h-96 md:h-72 2xl:h-96 3xl:h-200 w-full">
+          <div className="bg-[url('/img/wave.jpg')] bg-no-repeat bg-cover h-120 md:h-72 2xl:h-96 3xl:h-200 w-full">
             <div className="container mx-auto px-4 h-full flex flex-col md:flex-row justify-between items-center pt-16 md:pt-0 2xl:pt-0">
               <div className="flex flex-col items-center md:items-start space-y-4 mb-8 md:mb-0">
                 <LogoFooter />
