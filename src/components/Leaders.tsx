@@ -18,17 +18,17 @@ export default function Leaders() {
       id: 2,
       img: "/kodON_website/img/Jan.jpg",
       role: "Vice Prezes",
-      name: "Jan",
+      name: "inż. Jan",
       surname: "Wolski",
       description:
-        "Jan Wolski supports internal operations. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "Wiceprezes koła, student bioinformatyki. Inzynier sztucznei inteligencji. W kole zajmuje sie stroną merytoryczną.",
       leader: true,
     },
     {
       id: 3,
       img: "/kodON_website/img/Nat.jpg",
       role: "Opiekunka Koła",
-      name: "Natalia",
+      name: "mgr. Natalia",
       surname: "Zagórska",
       description:
         "Opiekunka koła bioinformatycznego, bada choroby autoimmunologiczne skóry i wciąż próbuje wyjaśnić rodzinie, czym właściwie się zajmuje.",

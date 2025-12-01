@@ -6,9 +6,9 @@ export default function Galery() {
 
   const projectName = ["Projekt Eva", "Projekt Słowik", "Projekt Ichor"];
   const porjectDesc = [
-    "Stowrzyliśmy model NEET, który uczy się samemu przechodzić napisaną przez nas grę.",
+    "Stowrzyliśmy model NEET, który uczy się samemu przechodzić napisaną przez nas grę symulującą ewolucje.",
     "Napisaliśmy model językowy, który przewiduje funkcję białka na podstawie jego sekwencji aminokwasowej.",
-    "Tworzymy model coś krew mati uzupełnij pls",
+    "Aplikacja wykrywająca składniki krwi na postawie zdjęcia spod mikroskopu",
   ];
 
   const handleLeftClick = () => {
