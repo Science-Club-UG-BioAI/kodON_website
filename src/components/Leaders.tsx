@@ -21,7 +21,7 @@ export default function Leaders() {
       name: "inż. Jan",
       surname: "Wolski",
       description:
-        "Wiceprezes koła, student bioinformatyki. Inzynier sztucznei inteligencji. W kole zajmuje sie stroną merytoryczną.",
+        "Wiceprezes koła, student bioinformatyki. Inzynier sztucznej inteligencji. W kole zajmuje sie stroną merytoryczną.",
       leader: true,
     },
     {
