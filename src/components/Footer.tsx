@@ -71,27 +71,29 @@ export default function Footer() {
                   zastrzeżone.
                 </p>
               </div>
-              <div className="flex gap-4 space-y-4 md:space-y-0 md:space-x-4 mt-10">
-                {socialLinks.map((link) => (
-                  <Link
-                    key={link.name}
-                    to={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-lazuli-200 hover:text-lazuli-100 transition-colors"
-                  >
-                    <img
-                      src={link.icon}
-                      alt={link.name}
-                      width={36}
-                      height={36}
-                    />
-                  </Link>
-                ))}
-                <p>
-                  Kontakt:{" "}
-                  <span className="font-medium italic">knkodon@gmail.com</span>
-                </p>
+              <div>
+                <div>
+                  <p className="mb-6">Kontakt:</p>
+                  <p className="font-medium">knkodon@gmail.com</p>
+                </div>
+                <div className="flex gap-4 space-y-4 md:space-y-0 md:space-x-4 mt-10">
+                  {socialLinks.map((link) => (
+                    <Link
+                      key={link.name}
+                      to={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-lazuli-200 hover:text-lazuli-100 transition-colors"
+                    >
+                      <img
+                        src={link.icon}
+                        alt={link.name}
+                        width={36}
+                        height={36}
+                      />
+                    </Link>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
