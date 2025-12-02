@@ -6,32 +6,60 @@ export default function Leaders() {
   const people = [
     {
       id: 1,
-      img: "/kodON_website/img/Prezes.png",
+      img: "/kodON_website/img/Mat.jpg",
       role: "Prezes",
       name: "Mateusz",
       surname: "Gawin",
-      description:
-        "Mateusz Gawin is the president of the company. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Może i niski ale wysoko mierzy.",
       leader: true,
     },
     {
       id: 2,
-      img: "/kodON_website/img/Vice_Prezes.png",
+      img: "/kodON_website/img/Jan.jpg",
       role: "Vice Prezes",
-      name: "Jan",
+      name: "inż. Jan",
       surname: "Wolski",
       description:
-        "Jan Wolski supports internal operations. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "Wiceprezes koła, student bioinformatyki. Inzynier sztucznej inteligencji. W kole zajmuje sie stroną merytoryczną.",
       leader: true,
     },
     {
       id: 3,
-      img: "/kodON_website/img/Project_0.png",
-      role: "Mental Help Developer",
-      name: "Kot",
-      surname: "Kotowaty",
+      img: "/kodON_website/img/Nat.jpg",
+      role: "Specjalistka do Spraw Biologicznych",
+      name: "mgr. Natalia",
+      surname: "Zagórska",
       description:
-        "I can't escape this hell So many times I've tried But I'm still caged inside Somebody get me through this nightmare I can't control myself. Ten kot został zwierzęciem którym został",
+        "Specjalistka do Spraw Biologicznych koła bioinformatycznego, bada choroby autoimmunologiczne skóry i wciąż próbuje wyjaśnić rodzinie, czym właściwie się zajmuje.",
+      leader: false,
+    },
+    {
+      id: 4,
+      img: "/kodON_website/img/Ana.jpg",
+      role: "Social Rybka",
+      name: "Anastazja",
+      surname: "Szłyk",
+      description:
+        "W kole zajmuję się social mediami. Dbam o to, żeby nasze działania były dobrze pokazane i łatwo dostępne dla wszystkich zainteresowanych",
+      leader: false,
+    },
+    {
+      id: 5,
+      img: "/kodON_website/img/Wik.jpg",
+      role: "Social Boy - fotocykacz",
+      name: "Wiktor",
+      surname: "Komor",
+      description: "Fotocykacz i tester kodu (wielki fan psp)",
+      leader: false,
+    },
+    {
+      id: 6,
+      img: "/kodON_website/img/Kub.jpg",
+      role: "Naczelna Sekretarka (do zadań bojowych)",
+      name: "Kuba",
+      surname: "Kozłowski",
+      description:
+        "Naczelna sekretarz, który nie chce nic robić ale kończy robiąc dużo.",
       leader: false,
     },
   ];
