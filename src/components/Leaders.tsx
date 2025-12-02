@@ -10,7 +10,7 @@ export default function Leaders() {
       role: "Prezes",
       name: "Mateusz",
       surname: "Gawin",
-      description: "Prezes koła oraz leń który nie wymyślił opisu.",
+      description: "Może i niski ale wysoko mierzy.",
       leader: true,
     },
     {
@@ -26,11 +26,11 @@ export default function Leaders() {
     {
       id: 3,
       img: "/kodON_website/img/Nat.jpg",
-      role: "Opiekunka Koła",
+      role: "Specjalistka do Spraw Biologicznych",
       name: "mgr. Natalia",
       surname: "Zagórska",
       description:
-        "Opiekunka koła bioinformatycznego, bada choroby autoimmunologiczne skóry i wciąż próbuje wyjaśnić rodzinie, czym właściwie się zajmuje.",
+        "Specjalistka do Spraw Biologicznych koła bioinformatycznego, bada choroby autoimmunologiczne skóry i wciąż próbuje wyjaśnić rodzinie, czym właściwie się zajmuje.",
       leader: false,
     },
     {
@@ -49,7 +49,7 @@ export default function Leaders() {
       role: "Social Boy - fotocykacz",
       name: "Wiktor",
       surname: "Komor",
-      description: "Ekspertka od social media koła KodON",
+      description: "Fotocykacz i tester kodu (wielki fan psp)",
       leader: false,
     },
     {
