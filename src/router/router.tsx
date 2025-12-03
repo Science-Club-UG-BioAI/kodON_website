@@ -6,13 +6,9 @@ export const router = createBrowserRouter(
     {
       path: '/',
       element: <Layout children={undefined} />,
-      // children: [
-      //   { path: '/kontakt', element: <Contact /> },
-      //   // ...
-      // ],
     },
   ],
   {
-    basename: '/kodON_website',
+    basename: '/',
   }
 );
