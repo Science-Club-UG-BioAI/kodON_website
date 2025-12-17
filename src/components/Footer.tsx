@@ -11,6 +11,9 @@ import image8 from "/img/Gal8.jpg";
 import image9 from "/img/Gal9.jpg";
 import image10 from "/img/Gal10.jpg";
 import image11 from "/img/Gal11.jpg";
+import image12 from "/img/Gal12.jpg";
+import image13 from "/img/Gal13.jpg";
+import image14 from "/img/Gal14.jpg";
 import linkedinIcon from "/img/in.jpg";
 import instagramIcon from "/img/ig.jpg";
 import githubIcon from "/img/gh.jpg";
@@ -45,6 +48,27 @@ export default function Footer() {
           <div className="relative z-10 container mx-auto px-4 py-16">
             <h2 className="text-4xl font-bold text-lazuli-200 mb-8">Galeria</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-items-center mb-16">
+              <img
+                src={image12}
+                alt="Image 12"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
+              />
+              <img
+                src={image13}
+                alt="Image 13"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
+              />
+              <img
+                src={image14}
+                alt="Image 14"
+                width={400}
+                height={300}
+                className="object-cover rounded-sm"
+              />
               <img
                 src={image1}
                 alt="Image 1"

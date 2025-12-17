@@ -1,6 +1,7 @@
 import About from "./About";
 import Leaders from "./Leaders";
 import ProjectGalery from "./ProjectGalery";
+import ProjectInfo from "./ProjectsInfo";
 
 export default function Main() {
   return (
@@ -8,6 +9,7 @@ export default function Main() {
       <About />
       <ProjectGalery />
       <Leaders />
+      <ProjectInfo />
     </main>
   );
 }

@@ -52,16 +52,16 @@ export default function Leaders() {
       description: "Fotocykacz i tester kodu (wielki fan psp)",
       leader: false,
     },
-    // {
-    //   id: 6,
-    //   img: "/img/Kub.jpg",
-    //   role: "Naczelna Sekretarka (do zadań bojowych)",
-    //   name: "Kuba",
-    //   surname: "Kozłowski",
-    //   description:
-    //     "Naczelna sekretarz, który nie chce nic robić ale kończy robiąc dużo.",
-    //   leader: false,
-    // },
+    {
+      id: 6,
+      img: "/img/Kub.jpg",
+      role: "Naczelna Sekretarka (do zadań bojowych)",
+      name: "Kuba",
+      surname: "Kozłowski",
+      description:
+        "Naczelna sekretarz, który nie chce nic robić ale kończy robiąc dużo.",
+      leader: false,
+    },
   ];
 
   const [selectedPerson, setSelectedPerson] = useState<
