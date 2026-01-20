@@ -1,4 +1,5 @@
 import Logo from './UI/Logo';
+import LogoFull from './UI/LogoFull';
 
 export default function Nav() {
   const smoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
@@ -17,7 +18,7 @@ export default function Nav() {
 
   return (
     <nav className='flex justify-between items-center p-2 sm:p-4'>
-      <Logo />
+      <LogoFull />
 
       <ul className='flex gap-3 sm:gap-4 mr-2 ml-2 text-lazuli-200 font-semibold text-sm sm:text-xl'>
         <li>
