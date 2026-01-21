@@ -25,7 +25,7 @@ import githubIcon from "/img/gh.jpg";
 type GalleryImage = {
   src: string;
   alt: string;
-  caption: string; // opis widoczny tylko po powiększeniu
+  caption: string;
 };
 
 export default function Footer() {
@@ -41,7 +41,7 @@ export default function Footer() {
 
   const images: GalleryImage[] = useMemo(
     () => [
-      {src: image15, alt: "Inne", caption: "Koło zakupiło nowe bluzy koła. Zaprojektowane zostały przez: ..."},
+      { src: image15, alt: "Inne", caption: "Koło zakupiło nowe bluzy. Zaprojektowane zostały przez " },
       { src: image12, alt: "Hakatlon Bydgoszcz 2025", caption: "Widok na główną scenę" },
       { src: image13, alt: "Hakatlon Bydgoszcz 2025", caption: "Team w trakcie pracy" },
       { src: image14, alt: "Spotkanie z Kosmonautą", caption: "Prezentujemy nasze projekty panu Sławoszowi" },
@@ -89,7 +89,6 @@ export default function Footer() {
       window.removeEventListener("keydown", onKeyDown);
       document.body.style.overflow = prevOverflow;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isOpen, images.length]);
 
   return (
@@ -128,7 +127,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Lightbox / Modal */}
         {isOpen && (
           <div
             className="fixed inset-0 z-[999] flex items-center justify-center bg-black/80 p-4"
@@ -176,7 +174,6 @@ export default function Footer() {
                 />
               </div>
 
-              {/* Podpis / opis tylko w powiększeniu */}
               <div className="mt-4 rounded-xl bg-white/10 p-4 text-white backdrop-blur">
                 <div className="flex items-center justify-between text-sm text-white/80">
                   <span>{images[activeIndex].alt}</span>
@@ -191,15 +188,13 @@ export default function Footer() {
             </div>
           </div>
         )}
-
-        {/* Reszta footera */}
         <div className="relative z-20">
           <div className="bg-[url('/img/wave.jpg')] bg-no-repeat bg-cover h-120 md:h-72 2xl:h-96 3xl:h-200 w-full">
             <div className="container mx-auto px-4 h-full flex flex-col md:flex-row justify-between items-center pt-16 md:pt-0 2xl:pt-0">
               <div className="flex flex-col items-center md:items-start space-y-4 mb-8 md:mb-0">
                 <LogoFooter />
                 <p className="text-black text-center md:text-left mt-4">
-                  &copy; {new Date().getFullYear()} kodON. Wszystkie prawa zastrzeżone.
+                  &copy; {new Date().getFullYear()} kodON
                 </p>
               </div>
 
