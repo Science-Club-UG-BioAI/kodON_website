@@ -59,7 +59,7 @@ export default function Leaders() {
       name: "Kuba",
       surname: "Kozłowski",
       description:
-        "Naczelna sekretarz, który nie chce nic robić ale kończy robiąc dużo.",
+        "Naczelna sekretarz", //, który nie chce nic robić ale kończy robiąc dużo.",
       leader: false,
     },
   ];

@@ -1,14 +1,15 @@
 import { useState } from "react";
 
 export default function Galery() {
-  const galeryContent = ["0", "1", "2"];
+  const galeryContent = ["0", "1", "2", "3"];
   const [selectedContent, setSelectedContent] = useState(1);
 
-  const projectName = ["Projekt Eva", "Projekt Słowik", "Projekt Ichor"];
+  const projectName = ["Projekt Eva", "Projekt Słowik", "Projekt Ichor", "AstraStrix"];
   const porjectDesc = [
     "Stworzyliśmy model NEET, który uczy się samemu przechodzić napisaną przez nas grę symulującą ewolucje.",
     "Napisaliśmy model językowy, który przewiduje funkcję białka na podstawie jego sekwencji aminokwasowej.",
     "Aplikacja służąca do identyfikacji elementów morfotycznych krwi na postawie zdjęć mikroskopowych.",
+    "Analiza spektrum tranzycyjnego planet pod kątem możliwości zamieszkania ich przez człowieka."
   ];
 
   const handleLeftClick = () => {
@@ -51,14 +52,13 @@ export default function Galery() {
 
           {/* Dots */}
           <div className="col-span-3 col-start-5 row-start-10 flex items-center justify-between px-[27%]">
-            {[0, 1, 2].map((i) => (
+            {[0, 1, 2, 3].map((i) => (
               <div
                 key={i}
-                className={`after:content-[''] aspect-square after:aspect-square h-[55%] after:h-[60%] rounded-full after:rounded-full flex after:block items-center justify-center transition bg-lazuli-200 after:bg-lazuli-400 opacity-30 after:opacity-30 duration-1 transform ${
-                  selectedContent === i
-                    ? "opacity-80 scale-110 shadow-md after:bg-lazuli-800 after:opacity-80"
-                    : ""
-                }`}
+                className={`after:content-[''] aspect-square after:aspect-square h-[55%] after:h-[60%] rounded-full after:rounded-full flex after:block items-center justify-center transition bg-lazuli-200 after:bg-lazuli-400 opacity-30 after:opacity-30 duration-1 transform ${selectedContent === i
+                  ? "opacity-80 scale-110 shadow-md after:bg-lazuli-800 after:opacity-80"
+                  : ""
+                  }`}
               />
             ))}
           </div>

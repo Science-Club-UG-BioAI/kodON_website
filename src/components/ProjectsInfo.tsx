@@ -2,31 +2,35 @@ export default function ProjectInfo() {
   const projects = [
     {
       name: "Eva",
-      desc:
-        "Stworzyliśmy model NEAT, który uczy się samemu przechodzić napisaną przez nas grę symulującą ewolucję.",
+      desc: "Stworzyliśmy model NEAT, który uczy się samemu przechodzić napisaną przez nas grę symulującą ewolucję.",
       href: "https://github.com/Science-Club-UG-BioAI/EVA",
       tag: "RL / NEAT",
     },
     {
       name: "Słowik",
-      desc:
-        "Napisaliśmy model językowy, który przewiduje funkcję białka na podstawie jego sekwencji aminokwasowej.",
+      desc: "Napisaliśmy model językowy, który przewiduje funkcję białka na podstawie jego sekwencji aminokwasowej.",
       href: "https://github.com/Science-Club-UG-BioAI/Nightingale",
       tag: "BioNLP",
     },
     {
       name: "Ichor",
-      desc:
-        "Aplikacja służąca do identyfikacji elementów morfotycznych krwi na podstawie zdjęć mikroskopowych.",
+      desc: "Aplikacja służąca do identyfikacji elementów morfotycznych krwi na podstawie zdjęć mikroskopowych.",
       href: "https://github.com/Science-Club-UG-BioAI/Ichor",
       tag: "CV / MedTech",
     },
     {
-        name: "Zgrany Budżet",
-        desc: "System który porządkuje proces tworzenia budżetu dla każdego organu administracyjnego.",
-        href: "https://github.com/Science-Club-UG-BioAI/HackNation-Project",
-        tag: "hakatlon"
-    
+      name: "Zgrany Budżet",
+      desc: "System który porządkuje proces tworzenia budżetu dla każdego organu administracyjnego.",
+      href: "https://github.com/Science-Club-UG-BioAI/HackNation-Project",
+      tag: "hakathon"
+
+    },
+    {
+      name: "AstraStrix",
+      desc: "Projekt na hackathon Hack-4-Sages, aplikacja do analiz spekt tranzycyjnych planet do predykcji składu atmosfery i oceny zdatności do zamieszkania przez człowieka.",
+      href: "https://github.com/Science-Club-UG-BioAI/HACK-4-SAGES-Project",
+      tag: "hakathon"
+
     }
   ];
 

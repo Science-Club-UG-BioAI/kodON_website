@@ -12,7 +12,7 @@ export default function Main() {
       <ProjectGalery />
       <Leaders />
       <Contact   discordInviteUrl="https://discord.com/invite/CuDHssj2bd"
-                  clubEmail="knkodon@gmail.com"
+                  clubEmail=" knkodon@studms.ug.edu.pl"
                   founders={[
                     { name: "Mateusz Gawin", role: "Prezes", email: "m.gawin.946@studms.ug.edu.pl" },
                     { name: "Jan Wolski", role: "Vice", email: "j.wolski.944@studms.ug.edu.pl" },

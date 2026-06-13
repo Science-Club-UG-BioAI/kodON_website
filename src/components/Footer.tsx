@@ -21,6 +21,7 @@ import image15 from "/img/Gal15.jpg";
 import linkedinIcon from "/img/in.jpg";
 import instagramIcon from "/img/ig.jpg";
 import githubIcon from "/img/gh.jpg";
+import ytIcon from "/img/YT.png"
 
 type GalleryImage = {
   src: string;
@@ -37,13 +38,14 @@ export default function Footer() {
     },
     { name: "Instagram", url: "https://www.instagram.com/kodon_ug/", icon: instagramIcon },
     { name: "Github", url: "https://github.com/Science-Club-UG-BioAI", icon: githubIcon },
+    { name: "YouTube", url: "https://www.youtube.com/@KNkodON", icon: ytIcon }
   ];
 
   const images: GalleryImage[] = useMemo(
     () => [
       { src: image15, alt: "Inne", caption: "Koło zakupiło nowe bluzy. Zaprojektowane zostały przez " },
-      { src: image12, alt: "Hakatlon Bydgoszcz 2025", caption: "Widok na główną scenę" },
-      { src: image13, alt: "Hakatlon Bydgoszcz 2025", caption: "Team w trakcie pracy" },
+      { src: image12, alt: "Hakathon Bydgoszcz 2025", caption: "Widok na główną scenę" },
+      { src: image13, alt: "Hakathon Bydgoszcz 2025", caption: "Team w trakcie pracy" },
       { src: image14, alt: "Spotkanie z Kosmonautą", caption: "Prezentujemy nasze projekty panu Sławoszowi" },
       { src: image1, alt: "Dni otwarte 2025", caption: "Zdjęcie przed wydarzeniem" },
       { src: image2, alt: "Dni otwarte 2025", caption: "Szybkie poprawki" },
@@ -194,7 +196,7 @@ export default function Footer() {
               <div className="flex flex-col items-center md:items-start space-y-4 mb-8 md:mb-0">
                 <LogoFooter />
                 <p className="text-black text-center md:text-left mt-4">
-                  &copy; {new Date().getFullYear()} kodON
+                  &copy; {new Date().getFullYear()} KodON
                 </p>
               </div>
 
