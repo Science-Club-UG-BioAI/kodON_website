@@ -15,7 +15,7 @@ export default function Leaders() {
     },
     {
       id: 2,
-      img: "/img/Jan.jpg",
+      img: "/img/Jan2.jpg",
       role: "Vice Prezes",
       name: "Janek",
       surname: "Wolski",
