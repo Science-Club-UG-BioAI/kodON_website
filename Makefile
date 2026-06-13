@@ -2,7 +2,7 @@ build:
 	docker build -t kodon_page .
 
 run:
-	docker run -d --name kodon_page_container -p 3000:80 kodon_page
+	docker run -d --name kodon_page_container -p 8080:80 kodon_page
 
 stop:
 	docker stop kodon_page_container || true

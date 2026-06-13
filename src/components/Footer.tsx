@@ -17,6 +17,9 @@ import image12 from "/img/Gal12.jpg";
 import image13 from "/img/Gal13.jpg";
 import image14 from "/img/Gal14.jpg";
 import image15 from "/img/Gal15.jpg";
+import image16 from "/img/Gal16.jpg";
+import image17 from "/img/Gal17.jpg";
+import image18 from "/img/Gal18.jpg";
 
 import linkedinIcon from "/img/in.jpg";
 import instagramIcon from "/img/ig.jpg";
@@ -43,7 +46,10 @@ export default function Footer() {
 
   const images: GalleryImage[] = useMemo(
     () => [
-      { src: image15, alt: "Inne", caption: "Koło zakupiło nowe bluzy. Zaprojektowane zostały przez " },
+      { src: image18, alt: "Zajęcia dla technikum", caption: "Prowadziliśmy zajęcia z Natural Language Processing dla uczniów technikum z Kościerzyny" },
+      { src: image17, alt: "Zajęcia dla technikum", caption: "Prowadziliśmy zajęcia z Natural Language Processing dla uczniów technikum z Kościerzyny" },
+      { src: image16, alt: "Zajęcia dla technikum", caption: "Prowadziliśmy zajęcia z Natural Language Processing dla uczniów technikum z Kościerzyny" },
+      { src: image15, alt: "Inne", caption: "Koło zakupiło nowe bluzy. Zaprojektowane zostały przez Darię Lewandowską, Alicję Belecką i Martynę Kudeń." },
       { src: image12, alt: "Hakathon Bydgoszcz 2025", caption: "Widok na główną scenę" },
       { src: image13, alt: "Hakathon Bydgoszcz 2025", caption: "Team w trakcie pracy" },
       { src: image14, alt: "Spotkanie z Kosmonautą", caption: "Prezentujemy nasze projekty panu Sławoszowi" },
