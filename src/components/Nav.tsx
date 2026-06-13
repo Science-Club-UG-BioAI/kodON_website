@@ -1,4 +1,4 @@
-import Logo from './UI/Logo';
+// import Logo from './UI/Logo';
 import LogoFull from './UI/LogoFull';
 
 export default function Nav() {
